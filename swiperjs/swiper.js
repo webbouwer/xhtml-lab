@@ -1,0 +1,1 @@
+/* SwiperJS instance */
