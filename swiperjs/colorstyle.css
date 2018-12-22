@@ -1,0 +1,38 @@
+/* color styles */
+
+.colorshow
+{
+background-color: #44B5D5;
+}
+
+
+.colorshow .swiper-pagination-bullet {
+  background-color: #2F8BA5;
+  color: #132D34;
+}
+.colorshow .swiper-pagination-bullet-active {
+  color:#852942;
+  background-color:  #F44977;
+}
+
+
+.colorshow .box1 {
+
+  color: #1E624A;
+  background-color: #41DAA4;
+}
+
+
+.colorshow .box2 {
+ color: #924E2D;
+ background-color: #FF864C;
+}
+
+
+.colorshow .box3 {
+}
+
+.colorshow .box4 {
+  color: #322865;
+  background-color: #6A55DD;
+}
