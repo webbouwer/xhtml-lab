@@ -27,14 +27,16 @@
     
     <!-- custom controls -->
     <div class="custom-control">
-        <div class="toggle"><label><input id="swipeboxToggle" name="swipeboxToggle" type="checkbox"> Box</label></div>
-        <div class="toggle"><label><input id="scrollbarToggle" name="scrollbarToggle" type="checkbox"> Scrollbar</label></div>
-        <div class="toggle"><label><input id="colorToggle" name="colorToggle" type="checkbox"> Colours</label></div>
+        <div class="toggle"><label><input id="swipeboxToggle" name="swipeboxToggle" type="checkbox"><span class="togglebut" /> Box</label></div>
+        <div class="toggle"><label><input id="scrollbarToggle" name="scrollbarToggle" type="checkbox"><span class="togglebut" /> Scrollbar</label></div>
+        <div class="toggle"><label><input id="colorToggle" name="colorToggle" type="checkbox"><span class="togglebut" /> Theme</label></div>
     </div>
 
     <!-- Swiper menu/pagination container -->
     <div class="swiper-pagination"></div>
 
+    <!-- Event result infobox -->
+    <div class="swiper-event-info"></div>
 </div>
 
 
@@ -79,13 +81,16 @@
       <div class="swiper-slide-wrap">
 
         <div class="swiper-slide-content">
-          <div class="box4 centercontent fullheight"><h3>Slide 3 top</h3>
-          <p>
-            Full height set with javascript
-          </p>
-           <p>
-            This slide should not scroll inside
-          </p>
+          <div class="box4 centercontent fullheight">
+              <div class="innerbox">
+                  <h3>Slide 3</h3>
+                  <p>
+                    Full height set with javascript
+                  </p>
+                   <p>
+                    This slide should not scroll inside
+                  </p>
+                </div>
             </div>
         </div>
 

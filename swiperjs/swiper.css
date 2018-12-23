@@ -10,10 +10,9 @@ body {
   margin:0;
   overflow: hidden;
 }
+h1,h2,h3,
 p
 {
-    display: block;
-    padding:5px;
 }
 /* swiper containers */
 .swiper-container {
@@ -67,6 +66,16 @@ p
 }
 .swiper-pagination-bullet-active {
   text-decoration: underline;
+}
+
+.swiper-event-info
+{
+  display:block;
+  position:fixed;
+  top:2%;
+  right:2%;
+  color:#DA0B34;
+  z-index:999;
 }
 
 /* Swiper scrollbar */
@@ -162,5 +171,9 @@ left: -6px;
   -webkit-align-items: center;
   align-items: center;
     */
+}
+.centercontent .innerbox
+{
+    display:block;
 }
 

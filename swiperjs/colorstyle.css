@@ -7,6 +7,7 @@
   background-color: #151515;
 }
 
+/* toggle style */
 .colorshow .custom-control .toggle
 {
       color: #705843;
@@ -16,9 +17,11 @@
     line-height:0.8em;
     padding:2px;
 }
-.colorshow .custom-control .toggle input
-{
-    border:0px;
+
+
+.colorshow .toggle input:checked + .togglebut {
+  color: #08878D;
+  text-decoration: none;
 }
 
 .colorshow .swiper-pagination-bullet {

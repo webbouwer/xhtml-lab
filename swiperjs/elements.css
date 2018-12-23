@@ -28,20 +28,6 @@ width:100%;
 top:0px;
 z-index: 99;
 }
-.custom-control
-{
-  width:100%;
-  text-align: center;
-  clear:both;
-}
-.custom-control .toggle
-{
-  display:inline-block;
-  padding: 9px 5px;
-  border-radius: 0;
-  text-align: center;
-  opacity: 1;
-}
 
 .swiper-pagination{
   width:100%;
@@ -49,6 +35,38 @@ z-index: 99;
   clear:both;
   border-radius: 12px;
 }
+
+
+
+
+.custom-control
+{
+  display: block;
+  position: relative;
+  width:100%;
+  text-align: center;
+  clear:both;
+}
+
+.custom-control .toggle
+{
+  position: relative;
+  display:inline-block;
+  padding: 9px 5px;
+  border-radius: 0;
+  text-align: center;
+  opacity: 1;
+}
+.toggle input:checked + .togglebut {
+    text-decoration: underline;
+}
+.toggle input{
+  display: none;
+}
+
+
+
+
 
 .swiper-pagination-bullet {
   display:inline-block;
