@@ -1,38 +1,59 @@
 /* color styles */
 
-.colorshow
+
+
+.colorshow #pagecontainer
 {
-background-color: #44B5D5;
+  background-color: #151515;
 }
 
+.colorshow .custom-control .toggle
+{
+      color: #705843;
+}
+.colorshow .custom-control .toggle label
+{
+    line-height:0.8em;
+    padding:2px;
+}
+.colorshow .custom-control .toggle input
+{
+    border:0px;
+}
 
 .colorshow .swiper-pagination-bullet {
-  background-color: #2F8BA5;
-  color: #132D34;
+  color: #294243;
+  background-color: #151515;
 }
 .colorshow .swiper-pagination-bullet-active {
-  color:#852942;
-  background-color:  #F44977;
+  color: #08878D;
+  background-color: #1B1E1E;
+  text-decoration: none;
 }
 
+.colorshow .swiper-container {
+  border: 1px solid #294243;
+}
 
 .colorshow .box1 {
+ color: #705843;
+ background-color: #232323;
 
-  color: #1E624A;
-  background-color: #41DAA4;
 }
 
 
 .colorshow .box2 {
- color: #924E2D;
- background-color: #FF864C;
+  color: #683F47;
+  background-color: #212121;
 }
 
 
 .colorshow .box3 {
+  color: #47613A;
+  background-color: #1F1F1F;
 }
 
 .colorshow .box4 {
-  color: #322865;
-  background-color: #6A55DD;
+  color: #294243;
+  background-color: #151515;
 }
