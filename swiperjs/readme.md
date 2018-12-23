@@ -2,6 +2,9 @@
 
 Test with scroll/swipe inner content
 
+
+[Swiper JS Boilerplate](https://webdesigndenhaag.net/factory/xhtml/swiperjs)
+
 ![event - onscroll - panning](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/Art/events_panning.jpg)
 
 
